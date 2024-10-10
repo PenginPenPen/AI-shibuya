@@ -15,6 +15,7 @@ class gptTestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+
     }
     
     @objc func StartButtonTapped(){
@@ -32,13 +33,13 @@ class gptTestViewController: UIViewController {
         responseLabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(responseLabel)
         
-        titleLabel.text = "APIdemo!"
+        titleLabel.text = "渋谷AIプラン(仮)"
         titleLabel.font = UIFont.systemFont(ofSize: 32)
         titleLabel.textAlignment = .center
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
 
         let button = UIButton(type: .system)
-        button.setTitle("Test", for: .normal)
+        button.setTitle("Start", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self,action: #selector(StartButtonTapped),for: .touchUpInside)
 
@@ -62,8 +63,7 @@ class gptTestViewController: UIViewController {
 
     // OpenAI APIへのリクエストを非同期で行う関数
     func fetchOpenAIResponse() async {
-        // OpenAI APIのエンドポイントとAPIキー
-        let apiKey = "GPT_API_KEY"
+        let apiKey = ProcessInfo.processInfo.environment["GPT_API"] ?? "API Key not set"
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
 
         // リクエストのボディ部分
