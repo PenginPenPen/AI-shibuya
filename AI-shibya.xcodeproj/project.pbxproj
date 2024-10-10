@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D3B74D732CB784FE0060729A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B74D542CB784FA0060729A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B74D5B2CB784FA0060729A;
+			remoteInfo = "AI-shibya";
+		};
+		D3B74D7D2CB784FE0060729A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B74D542CB784FA0060729A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3B74D5B2CB784FA0060729A;
+			remoteInfo = "AI-shibya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3B74D5C2CB784FA0060729A /* AI-shibya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI-shibya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B74D722CB784FE0060729A /* AI-shibyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-shibyaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B74D7C2CB784FE0060729A /* AI-shibyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI-shibyaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D3B74D842CB784FE0060729A /* Exceptions for "AI-shibya" folder in "AI-shibya" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D3B74D5B2CB784FA0060729A /* AI-shibya */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D3B74D5E2CB784FA0060729A /* AI-shibya */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3B74D842CB784FE0060729A /* Exceptions for "AI-shibya" folder in "AI-shibya" target */,
+			);
+			path = "AI-shibya";
+			sourceTree = "<group>";
+		};
+		D3B74D752CB784FE0060729A /* AI-shibyaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AI-shibyaTests";
+			sourceTree = "<group>";
+		};
+		D3B74D7F2CB784FE0060729A /* AI-shibyaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AI-shibyaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B74D592CB784FA0060729A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74D6F2CB784FE0060729A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74D792CB784FE0060729A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B74D532CB784FA0060729A = {
+			isa = PBXGroup;
+			children = (
+				D3B74D5E2CB784FA0060729A /* AI-shibya */,
+				D3B74D752CB784FE0060729A /* AI-shibyaTests */,
+				D3B74D7F2CB784FE0060729A /* AI-shibyaUITests */,
+				D3B74D5D2CB784FA0060729A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B74D5D2CB784FA0060729A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B74D5C2CB784FA0060729A /* AI-shibya.app */,
+				D3B74D722CB784FE0060729A /* AI-shibyaTests.xctest */,
+				D3B74D7C2CB784FE0060729A /* AI-shibyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B74D5B2CB784FA0060729A /* AI-shibya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B74D852CB784FE0060729A /* Build configuration list for PBXNativeTarget "AI-shibya" */;
+			buildPhases = (
+				D3B74D582CB784FA0060729A /* Sources */,
+				D3B74D592CB784FA0060729A /* Frameworks */,
+				D3B74D5A2CB784FA0060729A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D3B74D5E2CB784FA0060729A /* AI-shibya */,
+			);
+			name = "AI-shibya";
+			packageProductDependencies = (
+			);
+			productName = "AI-shibya";
+			productReference = D3B74D5C2CB784FA0060729A /* AI-shibya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3B74D712CB784FE0060729A /* AI-shibyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B74D8A2CB784FE0060729A /* Build configuration list for PBXNativeTarget "AI-shibyaTests" */;
+			buildPhases = (
+				D3B74D6E2CB784FE0060729A /* Sources */,
+				D3B74D6F2CB784FE0060729A /* Frameworks */,
+				D3B74D702CB784FE0060729A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B74D742CB784FE0060729A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3B74D752CB784FE0060729A /* AI-shibyaTests */,
+			);
+			name = "AI-shibyaTests";
+			packageProductDependencies = (
+			);
+			productName = "AI-shibyaTests";
+			productReference = D3B74D722CB784FE0060729A /* AI-shibyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3B74D7B2CB784FE0060729A /* AI-shibyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B74D8D2CB784FE0060729A /* Build configuration list for PBXNativeTarget "AI-shibyaUITests" */;
+			buildPhases = (
+				D3B74D782CB784FE0060729A /* Sources */,
+				D3B74D792CB784FE0060729A /* Frameworks */,
+				D3B74D7A2CB784FE0060729A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B74D7E2CB784FE0060729A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3B74D7F2CB784FE0060729A /* AI-shibyaUITests */,
+			);
+			name = "AI-shibyaUITests";
+			packageProductDependencies = (
+			);
+			productName = "AI-shibyaUITests";
+			productReference = D3B74D7C2CB784FE0060729A /* AI-shibyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B74D542CB784FA0060729A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D3B74D5B2CB784FA0060729A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D3B74D712CB784FE0060729A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D3B74D5B2CB784FA0060729A;
+					};
+					D3B74D7B2CB784FE0060729A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D3B74D5B2CB784FA0060729A;
+					};
+				};
+			};
+			buildConfigurationList = D3B74D572CB784FA0060729A /* Build configuration list for PBXProject "AI-shibya" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B74D532CB784FA0060729A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3B74D5D2CB784FA0060729A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B74D5B2CB784FA0060729A /* AI-shibya */,
+				D3B74D712CB784FE0060729A /* AI-shibyaTests */,
+				D3B74D7B2CB784FE0060729A /* AI-shibyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B74D5A2CB784FA0060729A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74D702CB784FE0060729A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74D7A2CB784FE0060729A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B74D582CB784FA0060729A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74D6E2CB784FE0060729A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B74D782CB784FE0060729A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3B74D742CB784FE0060729A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B74D5B2CB784FA0060729A /* AI-shibya */;
+			targetProxy = D3B74D732CB784FE0060729A /* PBXContainerItemProxy */;
+		};
+		D3B74D7E2CB784FE0060729A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3B74D5B2CB784FA0060729A /* AI-shibya */;
+			targetProxy = D3B74D7D2CB784FE0060729A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3B74D862CB784FE0060729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-shibya/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KDG.AI-shibya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B74D872CB784FE0060729A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-shibya/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KDG.AI-shibya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3B74D882CB784FE0060729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3B74D892CB784FE0060729A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B74D8B2CB784FE0060729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KDG.AI-shibyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI-shibya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI-shibya";
+			};
+			name = Debug;
+		};
+		D3B74D8C2CB784FE0060729A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KDG.AI-shibyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI-shibya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI-shibya";
+			};
+			name = Release;
+		};
+		D3B74D8E2CB784FE0060729A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KDG.AI-shibyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI-shibya";
+			};
+			name = Debug;
+		};
+		D3B74D8F2CB784FE0060729A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KDG.AI-shibyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI-shibya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B74D572CB784FA0060729A /* Build configuration list for PBXProject "AI-shibya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B74D882CB784FE0060729A /* Debug */,
+				D3B74D892CB784FE0060729A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B74D852CB784FE0060729A /* Build configuration list for PBXNativeTarget "AI-shibya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B74D862CB784FE0060729A /* Debug */,
+				D3B74D872CB784FE0060729A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B74D8A2CB784FE0060729A /* Build configuration list for PBXNativeTarget "AI-shibyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B74D8B2CB784FE0060729A /* Debug */,
+				D3B74D8C2CB784FE0060729A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B74D8D2CB784FE0060729A /* Build configuration list for PBXNativeTarget "AI-shibyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B74D8E2CB784FE0060729A /* Debug */,
+				D3B74D8F2CB784FE0060729A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B74D542CB784FA0060729A /* Project object */;
+}
